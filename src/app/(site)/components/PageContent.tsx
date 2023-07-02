@@ -1,6 +1,6 @@
 "use client"
 
-import { useOnPlay } from "@/hooks/useOnPlay";
+import { useOnPlay } from "../../../hooks/useOnPlay";
 import { Song } from "../../../../types";
 import { SongItem } from "../../../components/SongItem";
 

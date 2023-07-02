@@ -2,7 +2,7 @@
 
 import { MediaItem } from "@/components/MediaItem";
 import React from "react";
-import { Song } from "../../../types";
+import { Song } from "../../../../types";
 import { LikeButton } from "@/components/LikeButton";
 import { useOnPlay } from "@/hooks/useOnPlay";
 
