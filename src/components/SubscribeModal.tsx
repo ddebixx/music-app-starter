@@ -102,6 +102,7 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({
             </div>
         )
     }
+    
 
     return (
         <Modal title="Only for premium susers"
