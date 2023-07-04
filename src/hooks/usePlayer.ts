@@ -5,7 +5,7 @@ interface PlayerStore {
     activeID?: string;
     setID: (id: string) => void;
     setIDs: (id: string[]) => void;
-    reset: (id: string) => void;
+    reset: () => void;
 };
 
 export const usePlayer = create<PlayerStore>((set) => ({
